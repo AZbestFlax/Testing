@@ -21,6 +21,10 @@ public class TestPr {
         this.t = t;
     }
 
+    public int mult() {
+        return this.k * this.p * this.t;
+    }
+
     public void setT(int t) {
         this.t = t;
     }
