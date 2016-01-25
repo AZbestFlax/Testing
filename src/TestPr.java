@@ -21,6 +21,10 @@ public class TestPr {
         this.t = t;
     }
 
+    public int mult() {
+        return this.k * this.p * this.t;
+    }
+
     public void setT(int t) {
         this.t = t;
     }
@@ -57,13 +61,18 @@ public class TestPr {
         else return gcd(b, a%b);
     }
 
+    public void resolve() {
+        k = gcd(p, t);
+    }
+
 
     public static void main(String args[]) {
 
-        TestPr tp = new TestPr(0,0,0);
+        TestPr tp = new TestPr(0,2,2);
 
         tp.left();
         tp.right();
+        tp.resolve();
 
         for (int i = 0; i < N; i++) {
             alist.add(i);
