@@ -20,4 +20,10 @@ public class TestTestPr {
         assertEquals("Testing mult error", 6, tp.mult());
     }
 
+    @Test
+    public void TestingPr2() {
+        tp.setK(3);
+        assertEquals("Testing mult error", 18, tp.mult());
+    }
+
 }
