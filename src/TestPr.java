@@ -68,7 +68,7 @@ public class TestPr {
 
     public static void main(String args[]) {
 
-        TestPr tp = new TestPr(0,0,0);
+        TestPr tp = new TestPr(0,0,2);
 
         tp.left();
         tp.right();
