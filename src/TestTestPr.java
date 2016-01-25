@@ -26,4 +26,10 @@ public class TestTestPr {
         assertEquals("Testing mult error", 18, tp.mult());
     }
 
+    @Test
+    public void TestingResolve() {
+        tp.resolve();
+        assertEquals("Testing resolve error", 1, tp.getK());
+    }
+
 }

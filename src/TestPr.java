@@ -61,6 +61,10 @@ public class TestPr {
         else return gcd(b, a%b);
     }
 
+    public void resolve() {
+        k = gcd(p, t);
+    }
+
 
     public static void main(String args[]) {
 
@@ -68,6 +72,7 @@ public class TestPr {
 
         tp.left();
         tp.right();
+        tp.resolve();
 
         for (int i = 0; i < N; i++) {
             alist.add(i);
