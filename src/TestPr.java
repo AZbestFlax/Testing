@@ -5,7 +5,7 @@ import java.util.ArrayList;
  */
 public class TestPr {
 
-    final static int N = 5;
+    final static int N = 50;
     private static ArrayList<Integer> alist = new ArrayList<Integer>();
 
     public static void main(String args[]) {
